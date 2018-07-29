@@ -1,6 +1,6 @@
 # SceneSet
 
-SceneSet allows you to load a collection of scenes in one click.
+Allows user to load a collection of scenes in one click.
 
 ![LoadScenes](https://imgur.com/Ih1asur.gif)
 
