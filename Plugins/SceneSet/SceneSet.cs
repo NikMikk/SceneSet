@@ -4,9 +4,13 @@ using UnityEngine;
 
 using UnityEditor;
 
-[CreateAssetMenu(menuName = "SceneSet")]
-public class SceneSet : ScriptableObject
+namespace SceneSet
 {
-    public List<SceneAsset> scenesToLoad;
+    [CreateAssetMenu(menuName = "SceneSet")]
+    public class SceneSet : ScriptableObject
+    {
+        public List<SceneAsset> scenesToLoad;
+
+    }
 }
 #endif
